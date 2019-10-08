@@ -1,4 +1,4 @@
-# mono-ts-starter
+# mono-ts-starter [![Build Status](https://travis-ci.org/monolist/mono-ts-starter.svg?branch=master)](https://travis-ci.org/monolist/mono-ts-starter)
 
 A boilerplate for starting and publishing a TypeScript npm module.
 
