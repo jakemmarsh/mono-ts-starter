@@ -1,0 +1,46 @@
+{
+  "name": "mono-ts-starter",
+  "version": "1.0.0",
+  "description": "A boilerplate for starting and publishing a TypeScript npm module.",
+  "main": "dist/index.js",
+  "scripts": {
+    "lint": "NODE_ENV=test tsc --noEmit && eslint 'src/**/*.{js,ts,tsx}' --cache",
+    "pretest": "npm run lint",
+    "test": "NODE_ENV=test TZ=America/Los_Angeles jest --config jest.config.js",
+    "clean": "rm -Rf dist/*",
+    "prebuild": "npm run clean",
+    "build": "NODE_ENV=production tsc -p tsconfig.json",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Monolist/mono-ts-starter.git"
+  },
+  "keywords": [
+    "typescript",
+    "npm",
+    "module",
+    "package",
+    "starter",
+    "boilerplate"
+  ],
+  "author": "jake@monolist.co",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Monolist/mono-ts-starter/issues"
+  },
+  "homepage": "https://github.com/Monolist/mono-ts-starter",
+  "devDependencies": {
+    "@types/jest": "^24.0.18",
+    "@typescript-eslint/eslint-plugin": "^2.3.3",
+    "@typescript-eslint/parser": "^2.3.3",
+    "babel-plugin-module-resolver": "^3.2.0",
+    "eslint": "^6.5.1",
+    "eslint-plugin-no-only-tests": "^2.3.1",
+    "jest": "^24.9.0",
+    "prettier": "^1.18.2",
+    "shared-git-hooks": "^1.2.1",
+    "ts-jest": "^24.1.0",
+    "typescript": "^3.6.3"
+  }
+}

@@ -5,6 +5,8 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+.npmrc
+
 # Runtime data
 pids
 *.pid
@@ -29,8 +31,8 @@ bower_components
 # node-waf configuration
 .lock-wscript
 
-# Compiled binary addons (https://nodejs.org/api/addons.html)
-build/Release
+# Compiled files
+dist/
 
 # Dependency directories
 node_modules/
@@ -45,6 +47,8 @@ typings/
 # Optional eslint cache
 .eslintcache
 
+.jest
+
 # Optional REPL history
 .node_repl_history
 
@@ -56,6 +60,3 @@ typings/
 
 # dotenv environment variables file
 .env
-
-# next.js build output
-.next
