@@ -1,4 +1,4 @@
-# mono-ts-starter [![Build Status](https://travis-ci.org/monolist/mono-ts-starter.svg?branch=master)](https://travis-ci.org/monolist/mono-ts-starter)
+# mono-ts-starter [![Build Status](https://travis-ci.org/jakemmarsh/mono-ts-starter.svg?branch=master)](https://travis-ci.org/jakemmarsh/mono-ts-starter)
 
 A boilerplate for starting and publishing a TypeScript npm module.
 
@@ -12,18 +12,16 @@ to add without anything like Webpack.
 
 ## Getting Started
 
-1. `git clone https://github.com/monolist/mono-ts-starter.git`
+1. `git clone https://github.com/jakemmarsh/mono-ts-starter.git`
 2. Get started writing your module!
 
 ## Contributing
 
-🎊 Thanks for considering contributing!
-
-This library is used and primarily maintained by [Monolist](https://monolist.co). Issue reports and pull requests are always welcome.
+🎊 Thanks for considering contributing! Issue reports and pull requests are always welcome.
 
 To get started:
 
-1. `git clone https://github.com/monolist/mono-ts-starter.git`
+1. `git clone https://github.com/jakemmarsh/mono-ts-starter.git`
 2. `cd mono-ts-starter`
 3. `npm install`
 
